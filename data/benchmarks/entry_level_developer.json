@@ -1,0 +1,28 @@
+{
+  "id": "entry_level_developer",
+  "title": "Junior Developer / Recent Graduate",
+  "percentileBand": "Below Average (30th Percentile)",
+  "overallScore": 48,
+  "metrics": {
+    "atsReadiness": 50,
+    "keywordDensity": 42,
+    "quantifiedAchievements": 25,
+    "technicalDepth": 50,
+    "structureAndFormatting": 55,
+    "actionVerbStrength": 40
+  },
+  "candidateProfile": {
+    "yearsExperience": 1,
+    "education": "B.S. in Software Engineering",
+    "keyAchievementsCount": 3,
+    "quantifiedBulletsPercentage": 15
+  },
+  "summary": "Recent graduate eager to learn and contribute to software development projects. Completed coursework in algorithms, data structures, and web development.",
+  "sampleStrongBullets": [
+    "Created academic project using HTML, CSS, and basic JavaScript.",
+    "Learned Git and collaborative version control during senior capstone.",
+    "Responsible for maintaining simple database tables."
+  ],
+  "matchedKeywordsCount": 12,
+  "atsChecklistPassed": ["Basic Contact Info"]
+}

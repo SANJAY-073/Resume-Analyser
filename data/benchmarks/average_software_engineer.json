@@ -1,0 +1,28 @@
+{
+  "id": "average_software_engineer",
+  "title": "Software Engineer (Industry Median)",
+  "percentileBand": "Average (50th Percentile)",
+  "overallScore": 62,
+  "metrics": {
+    "atsReadiness": 65,
+    "keywordDensity": 60,
+    "quantifiedAchievements": 45,
+    "technicalDepth": 68,
+    "structureAndFormatting": 65,
+    "actionVerbStrength": 55
+  },
+  "candidateProfile": {
+    "yearsExperience": 3,
+    "education": "B.S. in Computer Science",
+    "keyAchievementsCount": 6,
+    "quantifiedBulletsPercentage": 35
+  },
+  "summary": "Software developer with 3 years experience writing code, fixing bugs, and participating in sprint meetings. Familiar with JavaScript, React, and Python.",
+  "sampleStrongBullets": [
+    "Worked on frontend features using React and JavaScript.",
+    "Assisted team with bug fixes and API integrations.",
+    "Participated in daily standups and sprint planning sessions."
+  ],
+  "matchedKeywordsCount": 18,
+  "atsChecklistPassed": ["Standard Section Titles", "Clear Contact Info"]
+}

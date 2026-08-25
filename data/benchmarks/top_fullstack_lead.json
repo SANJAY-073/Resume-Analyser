@@ -1,0 +1,29 @@
+{
+  "id": "top_fullstack_lead",
+  "title": "Staff / Lead Full Stack Engineer",
+  "percentileBand": "Top 10% (96th Percentile)",
+  "overallScore": 96,
+  "metrics": {
+    "atsReadiness": 98,
+    "keywordDensity": 94,
+    "quantifiedAchievements": 95,
+    "technicalDepth": 97,
+    "structureAndFormatting": 96,
+    "actionVerbStrength": 95
+  },
+  "candidateProfile": {
+    "yearsExperience": 7,
+    "education": "B.S. in Computer Science",
+    "keyAchievementsCount": 14,
+    "quantifiedBulletsPercentage": 88
+  },
+  "summary": "Accomplished Staff Full Stack Architect with 7+ years delivering fault-tolerant microservices, modern React/TypeScript user interfaces, and automated CI/CD cloud infrastructures. Reduced latency by 42% and scaled platforms to 5M+ monthly active users.",
+  "sampleStrongBullets": [
+    "Spearheaded redesign of core checkout flow using React, TypeScript, and Redis caching, boosting conversion rates by 28% and generating $4.2M in annualized revenue.",
+    "Architected event-driven microservices with Node.js and Apache Kafka, handling 45,000 requests/sec with 99.99% uptime SLA.",
+    "Engineered zero-downtime Kubernetes CI/CD pipeline on AWS, cutting build and deployment cycle times from 45 minutes to 4.2 minutes (90% reduction).",
+    "Mentored 8 mid-level engineers, resulting in 3 internal promotions to Senior Engineer within 12 months."
+  ],
+  "matchedKeywordsCount": 38,
+  "atsChecklistPassed": ["Standard Section Titles", "No Complex Tables", "Contact Details Clear", "Clean Single Column", "Date Formats Uniform", "High Action Verb Ratio"]
+}

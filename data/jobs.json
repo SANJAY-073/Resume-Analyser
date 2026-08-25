@@ -1,0 +1,561 @@
+[
+  {
+    "id": "job-swe-intern",
+    "title": "Software Engineering Intern (Summer / Fall 2026)",
+    "department": "Engineering",
+    "level": "Intern",
+    "experienceYears": 0,
+    "location": "Remote / Hybrid",
+    "description": "Join our product engineering team as a Software Engineering Intern. You will work alongside experienced mentors to develop user-facing features, write automated tests, and contribute to real-world production codebases.",
+    "requiredSkills": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "Data Structures & Algorithms",
+      "Git",
+      "Problem Solving",
+      "SQL basics",
+      "Object-Oriented Programming (OOP)"
+    ],
+    "preferredSkills": [
+      "React",
+      "Node.js",
+      "REST APIs",
+      "Linux / Bash",
+      "Docker basics",
+      "Unit Testing (Jest / PyTest)",
+      "HTML5 / CSS3"
+    ],
+    "responsibilities": [
+      "Develop and test clean, maintainable code for core features under the guidance of senior mentors.",
+      "Collaborate with cross-functional teams in daily agile standups, sprint planning, and code reviews.",
+      "Participate in building internal developer tools and customer-facing web components.",
+      "Troubleshoot, debug, and write unit tests to ensure high code reliability and performance."
+    ],
+    "keywords": [
+      "Python", "Java", "JavaScript", "Data Structures", "Algorithms", "Git", "GitHub", "OOP", "SQL",
+      "React", "REST APIs", "Unit Testing", "Problem Solving", "Agile", "Linux", "Teamwork"
+    ]
+  },
+  {
+    "id": "job-ai-ml-intern",
+    "title": "AI & Machine Learning Research Intern",
+    "department": "AI Research & Development",
+    "level": "Intern",
+    "experienceYears": 0,
+    "location": "San Francisco, CA / Remote",
+    "description": "Exciting internship opportunity in generative AI and machine learning. You will assist our AI research team in data preprocessing, fine-tuning evaluations, prompt engineering, and LLM benchmarking.",
+    "requiredSkills": [
+      "Python",
+      "PyTorch",
+      "Jupyter Notebooks",
+      "Pandas",
+      "NumPy",
+      "Scikit-Learn",
+      "Linear Algebra & Statistics",
+      "Git"
+    ],
+    "preferredSkills": [
+      "Transformers / HuggingFace",
+      "Natural Language Processing (NLP)",
+      "Prompt Engineering",
+      "Vector Databases basics",
+      "FastAPI basics",
+      "TensorFlow"
+    ],
+    "responsibilities": [
+      "Prepare, clean, and tokenize domain datasets for model fine-tuning and evaluation.",
+      "Conduct systematic benchmark evaluations across open-weight LLMs and RAG pipelines.",
+      "Document experimental outcomes, accuracy metrics, and inference latency statistics.",
+      "Collaborate with AI researchers to implement prototype algorithms and visualization scripts."
+    ],
+    "keywords": [
+      "Python", "PyTorch", "Pandas", "NumPy", "Scikit-Learn", "Machine Learning", "NLP", "LLMs",
+      "Jupyter", "HuggingFace", "Statistics", "Prompt Engineering", "Data Preprocessing", "Git"
+    ]
+  },
+  {
+    "id": "job-data-analytics-intern",
+    "title": "Data Analytics & Business Intelligence Intern",
+    "department": "Data & Analytics",
+    "level": "Intern",
+    "experienceYears": 0,
+    "location": "New York, NY / Remote",
+    "description": "Looking for an analytical Data Analytics Intern to query relational databases, perform exploratory data analysis, and build executive reporting dashboards for product and business teams.",
+    "requiredSkills": [
+      "SQL",
+      "Python",
+      "Excel / Google Sheets (Advanced Formulas)",
+      "Data Cleaning & Wrangling",
+      "Data Visualization (Tableau / PowerBI)",
+      "Statistical Foundations"
+    ],
+    "preferredSkills": [
+      "Pandas",
+      "PostgreSQL",
+      "A/B Testing basics",
+      "Git",
+      "Snowflake / BigQuery basics",
+      "Business Metrics (KPIs)"
+    ],
+    "responsibilities": [
+      "Write SQL queries to extract, transform, and aggregate customer and operational dataset.",
+      "Design intuitive Tableau/PowerBI visual dashboards to track core product KPIs.",
+      "Perform exploratory data analysis to identify trends, anomalies, and user behavior patterns.",
+      "Present quantitative insights to product managers with clear visual charts."
+    ],
+    "keywords": [
+      "SQL", "Python", "Tableau", "PowerBI", "Excel", "Data Cleaning", "Data Analysis", "Statistics",
+      "Pandas", "Dashboards", "Reporting", "KPIs", "PostgreSQL", "Exploratory Data Analysis"
+    ]
+  },
+  {
+    "id": "job-frontend-intern",
+    "title": "Frontend UI/UX Web Development Intern",
+    "department": "Engineering",
+    "level": "Intern",
+    "experienceYears": 0,
+    "location": "Remote",
+    "description": "Passionate about creating modern, responsive web experiences? Join us as a Frontend Intern to turn Figma designs into interactive, accessible React components and web applications.",
+    "requiredSkills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "React",
+      "Tailwind CSS",
+      "Git",
+      "Responsive Web Design"
+    ],
+    "preferredSkills": [
+      "TypeScript",
+      "Next.js",
+      "Figma",
+      "REST API integration",
+      "Web Accessibility (a11y)",
+      "Vite"
+    ],
+    "responsibilities": [
+      "Translate Figma UI/UX wireframes into responsive and accessible React components.",
+      "Connect client-side interfaces to backend REST APIs using modern fetch/Axios patterns.",
+      "Fix visual layout bugs and ensure cross-browser compatibility across mobile and desktop.",
+      "Participate in weekly design reviews and engineering standups."
+    ],
+    "keywords": [
+      "HTML5", "CSS3", "JavaScript", "React", "Tailwind CSS", "TypeScript", "Figma", "Git",
+      "Responsive Design", "REST APIs", "Vite", "Accessibility", "UI/UX"
+    ]
+  },
+  {
+    "id": "job-graduate-swe-fresher",
+    "title": "Graduate / Fresher Software Engineer (Full Stack / Java / React)",
+    "department": "Engineering",
+    "level": "Fresher / Entry-Level",
+    "experienceYears": 0,
+    "location": "Austin, TX / Remote",
+    "description": "We are hiring passionate recent university graduates and freshers for our Associate Software Engineer program. You will receive dedicated mentorship while building scalable customer-facing software.",
+    "requiredSkills": [
+      "Java or Python",
+      "JavaScript / TypeScript",
+      "React",
+      "REST APIs",
+      "SQL (PostgreSQL / MySQL)",
+      "Git & Version Control",
+      "Object-Oriented Design (OOP)",
+      "Data Structures & Algorithms"
+    ],
+    "preferredSkills": [
+      "Spring Boot or Node.js/Express",
+      "Docker basics",
+      "Linux / Command Line",
+      "CI/CD basics",
+      "Unit Testing (JUnit / Jest)",
+      "Agile / Scrum"
+    ],
+    "responsibilities": [
+      "Design, write, and deploy full stack web features with high code quality standards.",
+      "Develop and consume RESTful microservices and write efficient relational database queries.",
+      "Participate actively in agile sprint cycles, daily standups, and peer code reviews.",
+      "Write unit and integration tests to ensure software reliability and security."
+    ],
+    "keywords": [
+      "Java", "Python", "JavaScript", "TypeScript", "React", "SQL", "PostgreSQL", "REST APIs",
+      "Data Structures", "Algorithms", "OOP", "Git", "Spring Boot", "Node.js", "Docker", "Agile"
+    ]
+  },
+  {
+    "id": "job-fresher-frontend",
+    "title": "Junior / Fresher Frontend Developer (React, Next.js, Tailwind)",
+    "department": "Engineering",
+    "level": "Fresher / Entry-Level",
+    "experienceYears": 0,
+    "location": "Seattle, WA / Remote",
+    "description": "Looking for an energetic Junior / Entry-Level Frontend Engineer to build intuitive, fast, and accessible user experiences with React, TypeScript, and modern CSS tooling.",
+    "requiredSkills": [
+      "React",
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "HTML5 / Semantic HTML",
+      "Tailwind CSS / Modern CSS",
+      "REST APIs",
+      "Git & GitHub",
+      "Responsive Layouts"
+    ],
+    "preferredSkills": [
+      "Next.js",
+      "State Management (Zustand / Redux)",
+      "Jest / React Testing Library",
+      "Figma to Code",
+      "Web Performance Optimization"
+    ],
+    "responsibilities": [
+      "Build modular, reusable React components with responsive layouts across all screen sizes.",
+      "Integrate backend REST endpoints, handling loading, error, and optimistic UI states.",
+      "Collaborate with UI/UX designers to implement pixel-perfect visual interactions.",
+      "Optimize web page load speeds and adhere to accessibility guidelines (WCAG)."
+    ],
+    "keywords": [
+      "React", "TypeScript", "JavaScript", "Tailwind CSS", "Next.js", "HTML5", "CSS3", "REST APIs",
+      "Git", "Responsive Design", "State Management", "Testing", "UI/UX", "Vite"
+    ]
+  },
+  {
+    "id": "job-fresher-backend",
+    "title": "Junior / Fresher Backend Engineer (Node.js, Express, PostgreSQL)",
+    "department": "Engineering",
+    "level": "Fresher / Entry-Level",
+    "experienceYears": 0,
+    "location": "Chicago, IL / Remote",
+    "description": "Join our backend infrastructure team as an entry-level backend engineer. You will construct RESTful APIs, manage relational database schemas, and optimize server-side logic.",
+    "requiredSkills": [
+      "Node.js",
+      "Express.js",
+      "TypeScript or JavaScript",
+      "SQL (PostgreSQL / MySQL)",
+      "RESTful API Design",
+      "Git",
+      "Authentication & JWT basics",
+      "Postman / API Testing"
+    ],
+    "preferredSkills": [
+      "Docker basics",
+      "Redis basics",
+      "MongoDB / NoSQL",
+      "Linux / Bash",
+      "Jest / Supertest",
+      "Microservices concepts"
+    ],
+    "responsibilities": [
+      "Develop secure, well-documented REST APIs with authentication and validation layers.",
+      "Design database tables, indexes, and write performant SQL queries.",
+      "Write automated integration tests using Jest and Supertest to validate API behavior.",
+      "Collaborate with frontend engineers to deliver unified end-to-end product features."
+    ],
+    "keywords": [
+      "Node.js", "Express", "TypeScript", "JavaScript", "PostgreSQL", "SQL", "REST APIs", "JWT",
+      "Git", "Postman", "Docker", "Linux", "Backend", "Unit Testing", "Database Design"
+    ]
+  },
+  {
+    "id": "job-fresher-qa-sdet",
+    "title": "Graduate QA & Software Test Automation Engineer (SDET)",
+    "department": "Quality Engineering",
+    "level": "Fresher / Entry-Level",
+    "experienceYears": 0,
+    "location": "Atlanta, GA / Remote",
+    "description": "Kickstart your career in software testing and automation. Work on test strategy, write automated UI and API test scripts, and uphold product quality across web applications.",
+    "requiredSkills": [
+      "Software Testing Fundamentals",
+      "Python or JavaScript / Java",
+      "Test Automation (Selenium / Cypress / Playwright)",
+      "Postman / REST API Testing",
+      "SQL basics",
+      "Bug Tracking (Jira / GitHub Issues)",
+      "Git"
+    ],
+    "preferredSkills": [
+      "CI/CD Pipeline Integration",
+      "Performance Testing basics (JMeter)",
+      "Manual Test Case Design",
+      "Agile Testing Methodologies"
+    ],
+    "responsibilities": [
+      "Write and execute comprehensive manual test cases and automated regression suites.",
+      "Automate end-to-end browser workflows using Playwright / Cypress / Selenium.",
+      "Test REST APIs for schema compliance, response status, and edge-case handling.",
+      "Log detailed bug tickets with steps to reproduce, logs, and screenshots."
+    ],
+    "keywords": [
+      "QA", "Software Testing", "Test Automation", "Selenium", "Cypress", "Playwright", "Postman",
+      "API Testing", "Python", "JavaScript", "SQL", "Jira", "Manual Testing", "Regression Testing"
+    ]
+  },
+  {
+    "id": "job-junior-cloud-devops",
+    "title": "Associate Cloud & DevOps Operations Engineer",
+    "department": "Infrastructure & Site Reliability",
+    "level": "Fresher / Entry-Level",
+    "experienceYears": 0,
+    "location": "Denver, CO / Remote",
+    "description": "Great opportunity for tech enthusiasts wanting to build skills in cloud architecture, Linux administration, containerization, and automated CI/CD deployments.",
+    "requiredSkills": [
+      "Linux / Bash Scripting",
+      "Docker & Containerization",
+      "Git & GitHub",
+      "Networking Fundamentals (DNS, HTTP/HTTPS, TCP/IP)",
+      "Cloud Fundamentals (AWS or GCP)",
+      "CI/CD Concepts"
+    ],
+    "preferredSkills": [
+      "Kubernetes basics",
+      "Terraform basics",
+      "Python scripting",
+      "Prometheus / Grafana monitoring",
+      "Security Best Practices"
+    ],
+    "responsibilities": [
+      "Assist with configuring and maintaining Linux cloud servers and containerized apps.",
+      "Build and troubleshoot GitHub Actions workflows for continuous integration and delivery.",
+      "Monitor application logs, server health metrics, and alert triggers.",
+      "Maintain developer documentation for environment setup and deployment routines."
+    ],
+    "keywords": [
+      "Linux", "Bash", "Docker", "AWS", "GCP", "CI/CD", "GitHub Actions", "Networking", "Git",
+      "Cloud", "Containers", "DevOps", "Site Reliability", "Monitoring", "Scripting"
+    ]
+  },
+  {
+    "id": "job-fullstack-sr",
+    "title": "Senior Full Stack Engineer (React, Node.js, TypeScript, Cloud)",
+    "department": "Engineering",
+    "level": "Senior",
+    "experienceYears": 5,
+    "location": "San Francisco, CA / Remote",
+    "description": "We are seeking an experienced Senior Full Stack Engineer to lead end-to-end web architecture, scalable microservices, and interactive client applications.",
+    "requiredSkills": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Docker",
+      "AWS",
+      "REST APIs",
+      "Git",
+      "CI/CD"
+    ],
+    "preferredSkills": [
+      "GraphQL",
+      "Kubernetes",
+      "Tailwind CSS",
+      "Redis",
+      "Next.js",
+      "Microservices",
+      "System Design",
+      "Agile/Scrum"
+    ],
+    "responsibilities": [
+      "Architect and scale modern web applications serving millions of users.",
+      "Design fault-tolerant backend microservices and optimize SQL/NoSQL queries.",
+      "Collaborate with product managers and designers to deliver intuitive user interfaces.",
+      "Lead code reviews, establish testing automation, and mentor junior engineers."
+    ],
+    "keywords": [
+      "React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Docker", "AWS", "REST APIs",
+      "CI/CD", "Kubernetes", "GraphQL", "Redis", "Microservices", "System Design", "Unit Testing",
+      "Performance Optimization", "Scalability", "Agile", "Mentorship"
+    ]
+  },
+  {
+    "id": "job-ml-ai-eng",
+    "title": "Machine Learning & AI Engineer (LLMs, Python, PyTorch)",
+    "department": "AI Research & Development",
+    "level": "Senior",
+    "experienceYears": 4,
+    "location": "New York, NY / Hybrid",
+    "description": "Looking for an AI/ML Engineer to train, fine-tune, and deploy foundation models, RAG pipelines, and high-throughput inference APIs.",
+    "requiredSkills": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "Machine Learning",
+      "Natural Language Processing (NLP)",
+      "LLMs",
+      "Vector Databases",
+      "Docker",
+      "FastAPI"
+    ],
+    "preferredSkills": [
+      "LangChain",
+      "HuggingFace",
+      "MLOps",
+      "Kubeflow",
+      "AWS SageMaker",
+      "Fine-Tuning",
+      "RAG Architecture",
+      "CUDA"
+    ],
+    "responsibilities": [
+      "Build generative AI pipelines, vector retrieval mechanisms, and custom agentic workflows.",
+      "Optimize inference latency and fine-tune open-weights LLMs for domain-specific tasks.",
+      "Implement robust evaluation metrics, guardrails, and data preprocessing pipelines.",
+      "Collaborate with backend teams to integrate AI models into production microservices."
+    ],
+    "keywords": [
+      "Python", "PyTorch", "NLP", "LLMs", "RAG", "Vector Databases", "Embeddings", "HuggingFace",
+      "FastAPI", "Docker", "MLOps", "Model Evaluation", "Fine-Tuning", "Transformer", "LangChain",
+      "Data Pipelines", "GPU Optimization", "SageMaker"
+    ]
+  },
+  {
+    "id": "job-frontend-lead",
+    "title": "Frontend Engineer (React 19, Modern CSS, Performance)",
+    "department": "Engineering",
+    "level": "Mid-Level",
+    "experienceYears": 3,
+    "location": "Austin, TX / Remote",
+    "description": "Build high-performance, accessible, and delightful interactive user interfaces using modern React, Tailwind, and cutting-edge web standards.",
+    "requiredSkills": [
+      "React",
+      "TypeScript",
+      "JavaScript (ES6+)",
+      "HTML5",
+      "CSS3 / Tailwind CSS",
+      "State Management",
+      "Responsive Design",
+      "Web Performance"
+    ],
+    "preferredSkills": [
+      "Next.js",
+      "Vite",
+      "Framer Motion / Motion",
+      "Accessibility (a11y)",
+      "Jest / Playwright",
+      "UI/UX Design Systems",
+      "GraphQL"
+    ],
+    "responsibilities": [
+      "Develop responsive, pixel-perfect web interfaces with sub-second load times.",
+      "Ensure web accessibility (WCAG AA) compliance and cross-browser consistency.",
+      "Maintain and expand our core component library and design system.",
+      "Optimize core web vitals and client-side rendering bottlenecks."
+    ],
+    "keywords": [
+      "React", "TypeScript", "Tailwind CSS", "Next.js", "Accessibility", "WCAG", "Design Systems",
+      "Core Web Vitals", "Web Performance", "State Management", "Jest", "Playwright", "Responsive Design",
+      "Component Architecture", "CSS Animations"
+    ]
+  },
+  {
+    "id": "job-devops-cloud",
+    "title": "DevOps & Cloud Infrastructure Architect (Kubernetes, AWS, Terraform)",
+    "department": "Infrastructure & Site Reliability",
+    "level": "Senior",
+    "experienceYears": 5,
+    "location": "Seattle, WA / Remote",
+    "description": "Drive cloud infrastructure automation, observability, multi-region high availability, and secure CI/CD deployment pipelines.",
+    "requiredSkills": [
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Terraform",
+      "CI/CD (GitHub Actions / GitLab)",
+      "Linux / Bash",
+      "Infrastructure as Code (IaC)",
+      "Prometheus / Grafana"
+    ],
+    "preferredSkills": [
+      "GCP",
+      "Helm",
+      "ArgoCD",
+      "Security / SOC2 Compliance",
+      "Service Mesh (Istio)",
+      "Cost Optimization",
+      "Python / Go"
+    ],
+    "responsibilities": [
+      "Manage Kubernetes clusters and automate infrastructure provisioning using Terraform.",
+      "Build zero-downtime deployment pipelines and multi-environment GitOps workflows.",
+      "Monitor application performance, uptime (99.99%), alerting, and incident response.",
+      "Enforce cloud security baselines, IAM policies, and cost governance."
+    ],
+    "keywords": [
+      "AWS", "Kubernetes", "Terraform", "Docker", "CI/CD", "GitHub Actions", "IaC", "Prometheus",
+      "Grafana", "Linux", "GitOps", "ArgoCD", "Security", "High Availability", "Disaster Recovery",
+      "Site Reliability", "CloudWatch", "Helm"
+    ]
+  },
+  {
+    "id": "job-data-scientist",
+    "title": "Data Scientist (Statistical Modeling, SQL, Predictive Analytics)",
+    "department": "Data & Analytics",
+    "level": "Mid-Level",
+    "experienceYears": 3,
+    "location": "Boston, MA / Hybrid",
+    "description": "Derive actionable business insights, design statistical experiments, and build predictive machine learning models.",
+    "requiredSkills": [
+      "Python",
+      "SQL",
+      "Pandas / NumPy",
+      "Scikit-Learn",
+      "Data Visualization (Tableau / PowerBI)",
+      "A/B Testing",
+      "Statistical Analysis"
+    ],
+    "preferredSkills": [
+      "BigQuery / Snowflake",
+      "Apache Spark",
+      "Machine Learning",
+      "Time Series Forecasting",
+      "Product Analytics",
+      "R"
+    ],
+    "responsibilities": [
+      "Analyze massive customer behavioral datasets to uncover growth and retention drivers.",
+      "Design and evaluate statistical A/B tests with strict significance thresholds.",
+      "Build and maintain production predictive models for churn, recommendation, and forecasting.",
+      "Communicate statistical findings to executive stakeholders through visual executive summaries."
+    ],
+    "keywords": [
+      "Python", "SQL", "Pandas", "Scikit-Learn", "A/B Testing", "Statistics", "Hypothesis Testing",
+      "Tableau", "PowerBI", "Snowflake", "BigQuery", "Predictive Modeling", "Feature Engineering",
+      "Data Storytelling", "Regression", "Clustering"
+    ]
+  },
+  {
+    "id": "job-product-manager-tech",
+    "title": "Technical Product Manager (SaaS, Roadmap, Agile, Analytics)",
+    "department": "Product Management",
+    "level": "Senior",
+    "experienceYears": 4,
+    "location": "San Francisco, CA / Hybrid",
+    "description": "Drive product strategy, prioritize engineering backlogs, conduct user research, and define roadmap execution for cloud SaaS products.",
+    "requiredSkills": [
+      "Product Strategy",
+      "User Research",
+      "Agile / Scrum",
+      "Roadmapping",
+      "Data Analysis & SQL",
+      "Feature Specification (PRDs)",
+      "Stakeholder Management"
+    ],
+    "preferredSkills": [
+      "Technical Architecture understanding",
+      "A/B Testing",
+      "Jira",
+      "Figma",
+      "Go-to-Market (GTM)",
+      "API Design understanding"
+    ],
+    "responsibilities": [
+      "Define product vision, quarterly roadmaps, and measurable OKRs.",
+      "Translate complex user needs and business objectives into clear technical specifications.",
+      "Partner with engineering, design, sales, and marketing for seamless product launches.",
+      "Analyze product metrics to continuously optimize user engagement and conversion funnels."
+    ],
+    "keywords": [
+      "Product Strategy", "Roadmapping", "PRD", "Agile", "Scrum", "User Stories", "Stakeholder Management",
+      "Data-Driven", "Metrics", "OKRs", "A/B Testing", "User Research", "Customer Discovery", "GTM",
+      "Cross-Functional Leadership"
+    ]
+  }
+]

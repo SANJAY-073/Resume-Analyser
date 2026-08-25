@@ -1,0 +1,6 @@
+{
+  "name": "File-Based AI Resume Analyzer",
+  "description": "NLP & AI Resume Analyzer with Job Suitability, ATS Filter Optimization, Skill Gap Analysis with Free Course Recommendations, and Benchmark Percentiles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

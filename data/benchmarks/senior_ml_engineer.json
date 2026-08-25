@@ -1,0 +1,28 @@
+{
+  "id": "senior_ml_engineer",
+  "title": "Senior AI & Machine Learning Engineer",
+  "percentileBand": "Top 15% (91st Percentile)",
+  "overallScore": 91,
+  "metrics": {
+    "atsReadiness": 95,
+    "keywordDensity": 92,
+    "quantifiedAchievements": 90,
+    "technicalDepth": 96,
+    "structureAndFormatting": 92,
+    "actionVerbStrength": 90
+  },
+  "candidateProfile": {
+    "yearsExperience": 5,
+    "education": "M.S. in Artificial Intelligence",
+    "keyAchievementsCount": 11,
+    "quantifiedBulletsPercentage": 82
+  },
+  "summary": "AI Engineer specialized in training and productionizing transformer models, vector search RAG systems, and high-throughput inference APIs. Published 2 NLP papers at EMNLP and deployed models serving 20M+ inference calls monthly.",
+  "sampleStrongBullets": [
+    "Fine-tuned open-weights Llama 3 70B models using LoRA and PyTorch, achieving 94.2% accuracy on domain QA while cutting GPU inference costs by 58%.",
+    "Constructed vector database retrieval pipeline using Milvus and LangChain, reducing RAG hallucination rate by 34% across 1.2M technical documents.",
+    "Engineered distributed model training pipelines using AWS SageMaker and Ray, accelerating model iteration time by 3.5x."
+  ],
+  "matchedKeywordsCount": 34,
+  "atsChecklistPassed": ["Standard Section Titles", "Clear Contact Info", "Clean Typography", "High Quantified Metrics"]
+}

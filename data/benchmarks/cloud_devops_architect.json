@@ -1,0 +1,28 @@
+{
+  "id": "cloud_devops_architect",
+  "title": "Senior Cloud DevOps & Site Reliability Engineer",
+  "percentileBand": "Top 20% (84th Percentile)",
+  "overallScore": 84,
+  "metrics": {
+    "atsReadiness": 90,
+    "keywordDensity": 88,
+    "quantifiedAchievements": 85,
+    "technicalDepth": 88,
+    "structureAndFormatting": 86,
+    "actionVerbStrength": 84
+  },
+  "candidateProfile": {
+    "yearsExperience": 5,
+    "education": "B.S. in Information Systems",
+    "keyAchievementsCount": 10,
+    "quantifiedBulletsPercentage": 75
+  },
+  "summary": "DevOps Engineer with expertise in Terraform, Kubernetes, AWS multi-region infrastructure, and SOC2 compliance automation. Maintained 99.99% system availability and cut cloud spend by $180k/year.",
+  "sampleStrongBullets": [
+    "Automated cloud infrastructure across 3 AWS regions using Terraform IaC, reducing environment spin-up time from 3 days to 18 minutes.",
+    "Engineered Prometheus and Grafana alerting systems, reducing Mean Time to Detect (MTTD) by 62% and Mean Time to Resolution (MTTR) by 45%.",
+    "Implemented automated container vulnerability scanning with Trivy in GitHub Actions, remediating 120+ CVEs before production releases."
+  ],
+  "matchedKeywordsCount": 30,
+  "atsChecklistPassed": ["Standard Section Titles", "No Tables", "Single Column Layout"]
+}

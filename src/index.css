@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-charcoal: #12161a;
+    --bg-charcoal-card: #181d23;
+    --bg-charcoal-card-hover: #1e242c;
+    --bg-charcoal-input: #151a20;
+    --border-charcoal: #252e37;
+    --border-charcoal-light: #323d49;
+    --neo-mint: #2ef8a0;
+    --neo-mint-dark: #00d984;
+    --neo-mint-soft: rgba(46, 248, 160, 0.12);
+    --neo-mint-border: rgba(46, 248, 160, 0.28);
+  }
+
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #12161a; /* Charcoal gray */
+    color: #e2e8f0;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    background-image: 
+      radial-gradient(ellipse 80% 50% at 50% -20%, rgba(46, 248, 160, 0.07), transparent 70%),
+      radial-gradient(circle at 100% 100%, rgba(46, 248, 160, 0.03), transparent 40%);
+    background-attachment: fixed;
+  }
+}
+
+/* Custom refined Neo Mint + Charcoal scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #12161a;
+}
+::-webkit-scrollbar-thumb {
+  background: #27313c;
+  border-radius: 9999px;
+  border: 1px solid rgba(46, 248, 160, 0.15);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #394757;
+  border-color: rgba(46, 248, 160, 0.4);
+}
+
+/* Futuristic Calming Utilities */
+.neo-glow-sm {
+  box-shadow: 0 0 15px rgba(46, 248, 160, 0.12);
+}
+
+.neo-glow {
+  box-shadow: 0 0 25px rgba(46, 248, 160, 0.18), 0 0 5px rgba(46, 248, 160, 0.3);
+}
+
+.neo-gradient-text {
+  background: linear-gradient(135deg, #ffffff 0%, #f0fdf4 60%, #a7f3d0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.neo-gradient-mint {
+  background: linear-gradient(135deg, #2ef8a0 0%, #059669 100%);
+}
+

@@ -1,0 +1,410 @@
+{
+  "categories": [
+    {
+      "id": "frontend",
+      "name": "Frontend Web Development",
+      "skills": [
+        {
+          "name": "React",
+          "aliases": ["reactjs", "react.js", "react-native"],
+          "importance": "High",
+          "description": "Component-based UI library for building reactive client applications.",
+          "freeCourses": [
+            {
+              "title": "Front-End Developer Professional Certificate (React Module)",
+              "provider": "Meta / Coursera (Free Audit)",
+              "url": "https://www.coursera.org/professional-certificates/meta-front-end-developer",
+              "duration": "25 hours",
+              "level": "Beginner to Intermediate",
+              "badge": "Meta Certified"
+            },
+            {
+              "title": "FreeCodeCamp React & Redux Certification",
+              "provider": "freeCodeCamp",
+              "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/",
+              "duration": "30 hours",
+              "level": "Beginner",
+              "badge": "Free Certificate"
+            }
+          ]
+        },
+        {
+          "name": "TypeScript",
+          "aliases": ["ts", "typescript 5"],
+          "importance": "High",
+          "description": "Strongly typed superset of JavaScript for large-scale application stability.",
+          "freeCourses": [
+            {
+              "title": "TypeScript Handbook & Interactive Sandbox",
+              "provider": "Microsoft / TypeScript Team",
+              "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+              "duration": "12 hours",
+              "level": "Intermediate",
+              "badge": "Official Docs"
+            },
+            {
+              "title": "Total TypeScript Essentials",
+              "provider": "Matt Pocock / Open Source",
+              "url": "https://www.totaltypescript.com/tutorials/beginners-typescript",
+              "duration": "10 hours",
+              "level": "Beginner to Advanced",
+              "badge": "Interactive Workshop"
+            }
+          ]
+        },
+        {
+          "name": "Tailwind CSS",
+          "aliases": ["tailwind", "tailwindcss"],
+          "importance": "Medium",
+          "description": "Utility-first CSS framework for rapid modern UI development.",
+          "freeCourses": [
+            {
+              "title": "Modern CSS with Tailwind",
+              "provider": "Tailwind Labs / YouTube",
+              "url": "https://tailwindcss.com/docs",
+              "duration": "8 hours",
+              "level": "Beginner",
+              "badge": "Official"
+            }
+          ]
+        },
+        {
+          "name": "Web Accessibility (WCAG / a11y)",
+          "aliases": ["a11y", "wcag", "aria", "accessibility"],
+          "importance": "Medium",
+          "description": "Designing and developing web software accessible to people with disabilities.",
+          "freeCourses": [
+            {
+              "title": "Web Accessibility by Google",
+              "provider": "Google / Udacity",
+              "url": "https://www.udacity.com/course/web-accessibility--ud891",
+              "duration": "15 hours",
+              "level": "Intermediate",
+              "badge": "Google Certified"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "name": "Backend & System Architecture",
+      "skills": [
+        {
+          "name": "Node.js",
+          "aliases": ["node", "nodejs", "express", "expressjs"],
+          "importance": "High",
+          "description": "Asynchronous event-driven JavaScript runtime for scalable network services.",
+          "freeCourses": [
+            {
+              "title": "Node.js & Express Essential Training",
+              "provider": "freeCodeCamp",
+              "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
+              "duration": "25 hours",
+              "level": "Beginner to Intermediate",
+              "badge": "Free Certificate"
+            },
+            {
+              "title": "IBM Back-End Development with Node.js and Express",
+              "provider": "IBM / Coursera (Free Audit)",
+              "url": "https://www.coursera.org/learn/ibm-backend-development-nodejs-express",
+              "duration": "18 hours",
+              "level": "Intermediate",
+              "badge": "IBM Skills"
+            }
+          ]
+        },
+        {
+          "name": "PostgreSQL & SQL",
+          "aliases": ["postgres", "postgresql", "sql", "relational database", "mysql"],
+          "importance": "High",
+          "description": "Relational query design, indexing, ACID transactions, and database optimization.",
+          "freeCourses": [
+            {
+              "title": "Databases and SQL for Data Science with Python",
+              "provider": "IBM SkillsBuild / Coursera",
+              "url": "https://www.coursera.org/learn/sql-data-science",
+              "duration": "20 hours",
+              "level": "Beginner",
+              "badge": "IBM Digital Badge"
+            },
+            {
+              "title": "Stanford Relational Databases and SQL",
+              "provider": "Stanford Online / edX",
+              "url": "https://online.stanford.edu/courses/soe-ydatabases-databases-relational-databases-and-sql",
+              "duration": "15 hours",
+              "level": "Intermediate",
+              "badge": "Stanford Open"
+            }
+          ]
+        },
+        {
+          "name": "GraphQL",
+          "aliases": ["graphql", "apollo", "graphql api"],
+          "importance": "Medium",
+          "description": "Declarative query language and runtime for APIs.",
+          "freeCourses": [
+            {
+              "title": "Odyssey: Apollo GraphQL Fundamentals",
+              "provider": "Apollo GraphQL",
+              "url": "https://www.apollographql.com/tutorials/",
+              "duration": "10 hours",
+              "level": "Beginner to Intermediate",
+              "badge": "Apollo Certified"
+            }
+          ]
+        },
+        {
+          "name": "Microservices & System Design",
+          "aliases": ["system design", "microservices", "distributed systems", "event-driven architecture"],
+          "importance": "High",
+          "description": "Designing fault-tolerant, horizontally scalable distributed architectures.",
+          "freeCourses": [
+            {
+              "title": "System Design Primer & Scalable Architecture",
+              "provider": "Donne Martin / GitHub Open Source",
+              "url": "https://github.com/donnemartin/system-design-primer",
+              "duration": "40 hours",
+              "level": "Advanced",
+              "badge": "Industry Standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloud_devops",
+      "name": "Cloud, DevOps & Containers",
+      "skills": [
+        {
+          "name": "Docker",
+          "aliases": ["docker", "containerization", "containers"],
+          "importance": "High",
+          "description": "Containerizing applications for consistent deployment across environments.",
+          "freeCourses": [
+            {
+              "title": "Introduction to Containers with Docker, Kubernetes & OpenShift",
+              "provider": "IBM / CognitiveClass.ai",
+              "url": "https://cognitiveclass.ai/courses/introduction-to-containers-docker-kubernetes-openshift",
+              "duration": "14 hours",
+              "level": "Beginner",
+              "badge": "IBM Verified"
+            }
+          ]
+        },
+        {
+          "name": "Kubernetes",
+          "aliases": ["k8s", "kubernetes", "helm"],
+          "importance": "High",
+          "description": "Automating deployment, scaling, and management of containerized applications.",
+          "freeCourses": [
+            {
+              "title": "Introduction to Kubernetes (LFS158x)",
+              "provider": "The Linux Foundation / edX",
+              "url": "https://www.edx.org/learn/kubernetes/the-linux-foundation-introduction-to-kubernetes",
+              "duration": "20 hours",
+              "level": "Intermediate",
+              "badge": "Linux Foundation"
+            },
+            {
+              "title": "Architecting with Google Kubernetes Engine",
+              "provider": "Google Cloud / Coursera (Free Audit)",
+              "url": "https://www.coursera.org/learn/google-kubernetes-engine",
+              "duration": "25 hours",
+              "level": "Intermediate",
+              "badge": "Google Cloud"
+            }
+          ]
+        },
+        {
+          "name": "AWS Cloud",
+          "aliases": ["aws", "amazon web services", "ec2", "s3", "lambda"],
+          "importance": "High",
+          "description": "Building and scaling infrastructure on Amazon Web Services cloud platform.",
+          "freeCourses": [
+            {
+              "title": "AWS Cloud Practitioner Essentials",
+              "provider": "AWS Skill Builder",
+              "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials",
+              "duration": "6 hours",
+              "level": "Beginner",
+              "badge": "Official AWS"
+            }
+          ]
+        },
+        {
+          "name": "Terraform / IaC",
+          "aliases": ["terraform", "infrastructure as code", "iac"],
+          "importance": "High",
+          "description": "Declarative cloud infrastructure provisioning across multi-cloud providers.",
+          "freeCourses": [
+            {
+              "title": "HashiCorp Terraform Associate Guide",
+              "provider": "HashiCorp Learn / freeCodeCamp",
+              "url": "https://developer.hashicorp.com/terraform/tutorials",
+              "duration": "16 hours",
+              "level": "Intermediate",
+              "badge": "HashiCorp Free"
+            }
+          ]
+        },
+        {
+          "name": "CI/CD Pipelines",
+          "aliases": ["ci/cd", "continuous integration", "github actions", "gitlab ci", "jenkins"],
+          "importance": "High",
+          "description": "Automated build, test, and release automation pipelines.",
+          "freeCourses": [
+            {
+              "title": "Continuous Delivery & DevOps by University of Virginia",
+              "provider": "Coursera (Free Audit)",
+              "url": "https://www.coursera.org/learn/uva-darden-continuous-delivery-devops",
+              "duration": "12 hours",
+              "level": "Intermediate",
+              "badge": "University Course"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_ml_data",
+      "name": "AI, Machine Learning & Data Science",
+      "skills": [
+        {
+          "name": "Python for Data & AI",
+          "aliases": ["python", "python3", "numpy", "pandas"],
+          "importance": "High",
+          "description": "Core programming language for machine learning, data engineering, and automation.",
+          "freeCourses": [
+            {
+              "title": "Google IT Automation with Python Professional Certificate",
+              "provider": "Google / Coursera (Free Audit)",
+              "url": "https://www.coursera.org/professional-certificates/google-it-automation",
+              "duration": "35 hours",
+              "level": "Beginner to Intermediate",
+              "badge": "Google Career Cert"
+            },
+            {
+              "title": "Python for Data Science, AI & Development",
+              "provider": "IBM SkillsBuild / edX",
+              "url": "https://www.edx.org/learn/python/ibm-python-for-data-science-ai-development",
+              "duration": "20 hours",
+              "level": "Beginner",
+              "badge": "IBM Certified"
+            }
+          ]
+        },
+        {
+          "name": "Natural Language Processing (NLP) & LLMs",
+          "aliases": ["nlp", "natural language processing", "llm", "large language models", "transformers", "rag", "langchain"],
+          "importance": "High",
+          "description": "Tokenization, embeddings, transformer architectures, and RAG pipelines.",
+          "freeCourses": [
+            {
+              "title": "Generative AI for Everyone",
+              "provider": "DeepLearning.AI / Andrew Ng",
+              "url": "https://www.deeplearning.ai/courses/generative-ai-for-everyone/",
+              "duration": "6 hours",
+              "level": "All Levels",
+              "badge": "DeepLearning.AI"
+            },
+            {
+              "title": "Google Cloud Generative AI Fundamentals",
+              "provider": "Google Cloud Skills Boost",
+              "url": "https://www.cloudskillsboost.google/course_templates/556",
+              "duration": "8 hours",
+              "level": "Beginner to Intermediate",
+              "badge": "Google Cloud Skill Badge"
+            },
+            {
+              "title": "Hugging Face NLP Course",
+              "provider": "Hugging Face Open Source",
+              "url": "https://huggingface.co/learn/nlp-course/chapter1/1",
+              "duration": "24 hours",
+              "level": "Intermediate to Advanced",
+              "badge": "Hugging Face"
+            }
+          ]
+        },
+        {
+          "name": "PyTorch / TensorFlow",
+          "aliases": ["pytorch", "tensorflow", "keras", "deep learning"],
+          "importance": "High",
+          "description": "Deep learning frameworks for tensor computation and neural network training.",
+          "freeCourses": [
+            {
+              "title": "Deep Learning Specialization (Free Audit)",
+              "provider": "DeepLearning.AI / Coursera",
+              "url": "https://www.coursera.org/specializations/deep-learning",
+              "duration": "45 hours",
+              "level": "Intermediate",
+              "badge": "DeepLearning.AI"
+            },
+            {
+              "title": "PyTorch 60-Minute Blitz & Deep Learning",
+              "provider": "PyTorch Official Tutorials",
+              "url": "https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html",
+              "duration": "10 hours",
+              "level": "Intermediate",
+              "badge": "Official PyTorch"
+            }
+          ]
+        },
+        {
+          "name": "A/B Testing & Statistics",
+          "aliases": ["a/b testing", "statistics", "hypothesis testing", "experimentation"],
+          "importance": "Medium",
+          "description": "Hypothesis testing, significance calculation, variance reduction, and experiment design.",
+          "freeCourses": [
+            {
+              "title": "A/B Testing by Google",
+              "provider": "Google / Udacity",
+              "url": "https://www.udacity.com/course/ab-testing--ud257",
+              "duration": "16 hours",
+              "level": "Intermediate",
+              "badge": "Google Course"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "product_management",
+      "name": "Product, Agile & Soft Leadership",
+      "skills": [
+        {
+          "name": "Agile & Scrum Methodologies",
+          "aliases": ["agile", "scrum", "sprints", "kanban", "jira"],
+          "importance": "High",
+          "description": "Iterative software delivery, sprint planning, and backlog refinement.",
+          "freeCourses": [
+            {
+              "title": "Google Project Management: Agile Project Management",
+              "provider": "Google / Coursera (Free Audit)",
+              "url": "https://www.coursera.org/learn/agile-project-management",
+              "duration": "22 hours",
+              "level": "Beginner to Intermediate",
+              "badge": "Google PM Cert"
+            }
+          ]
+        },
+        {
+          "name": "Product Strategy & Metrics (OKRs)",
+          "aliases": ["product strategy", "product management", "okrs", "roadmapping", "prds"],
+          "importance": "High",
+          "description": "Defining product roadmaps, user stories, KPIs, and outcome-oriented OKRs.",
+          "freeCourses": [
+            {
+              "title": "Product Ideation, Design, and Management Specialization",
+              "provider": "University of Maryland / Coursera",
+              "url": "https://www.coursera.org/specializations/product-ideation-design-management",
+              "duration": "18 hours",
+              "level": "Intermediate",
+              "badge": "University Cert"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
