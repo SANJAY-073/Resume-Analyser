@@ -1,7 +1,6 @@
 import express from 'express';
 import path from 'path';
 import fs from 'fs';
-import { fileURLToPath } from 'url';
 import multer from 'multer';
 import mammoth from 'mammoth';
 import { createServer as createViteServer } from 'vite';
@@ -9,9 +8,8 @@ import { analyzeResumeNLP } from './server/nlpEngine';
 import { generateAIDeepReview, rewriteBulletWithGemini } from './server/geminiService';
 import { JobDescription, SkillsData, BenchmarkResume, SampleResume } from './src/types';
 
-// ES Module dirname resolution
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+// Safe directory resolution for both ESM (tsx dev) and CommonJS (esbuild bundle in production)
+const currentDir = typeof __dirname !== 'undefined' ? __dirname : process.cwd();
 
 const app = express();
 const PORT = 3000;
@@ -29,8 +27,10 @@ const upload = multer({
 const getDataPath = (...parts: string[]) => {
   const p1 = path.join(process.cwd(), 'data', ...parts);
   if (fs.existsSync(p1)) return p1;
-  const p2 = path.join(__dirname, 'data', ...parts);
+  const p2 = path.join(currentDir, 'data', ...parts);
   if (fs.existsSync(p2)) return p2;
+  const p3 = path.join(currentDir, '..', 'data', ...parts);
+  if (fs.existsSync(p3)) return p3;
   return p1;
 };
 
