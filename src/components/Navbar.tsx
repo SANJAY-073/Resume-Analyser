@@ -5,7 +5,6 @@ import {
   Download, 
   RotateCcw, 
   PlusCircle,
-  Database,
   GraduationCap
 } from 'lucide-react';
 import { SampleResume, JobDescription } from '../types';
@@ -39,20 +38,14 @@ export const Navbar: React.FC<NavbarProps> = ({
         <div className="flex items-center justify-between h-16">
           
           {/* Logo & Brand */}
-          <div className="flex items-center space-x-3">
-            <div className="w-9 h-9 rounded-xl bg-[#181d23] border border-[#2ef8a0]/30 flex items-center justify-center text-[#2ef8a0] shadow-[0_0_12px_rgba(46,248,160,0.15)]">
+          <div className="flex items-center gap-3">
+            <div className="w-9 h-9 rounded-xl bg-[#181d23] border border-[#2ef8a0]/30 flex items-center justify-center text-[#2ef8a0] shadow-[0_0_12px_rgba(46,248,160,0.15)] shrink-0">
               <FileText className="w-5 h-5" />
             </div>
-            <div>
-              <div className="flex items-center space-x-2">
-                <span className="font-bold text-white text-base sm:text-lg tracking-tight neo-gradient-text">
-                  ResumeAI <span className="text-[#2ef8a0] font-semibold drop-shadow-[0_0_8px_rgba(46,248,160,0.3)]">Matcher</span>
-                </span>
-                <span className="hidden sm:inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold bg-[#2ef8a0]/10 text-[#2ef8a0] border border-[#2ef8a0]/30">
-                  <Database className="w-2.5 h-2.5 mr-1 text-[#2ef8a0]" /> NLP Engine
-                </span>
-              </div>
-              <p className="hidden md:block text-[11px] text-slate-400 font-medium">Intern • Fresher • Mid • Senior Career Optimization</p>
+            <div className="flex items-center">
+              <span className="font-bold text-white text-base sm:text-lg tracking-tight neo-gradient-text leading-none">
+                ResumeAI <span className="text-[#2ef8a0] font-semibold drop-shadow-[0_0_8px_rgba(46,248,160,0.3)]">Matcher</span>
+              </span>
             </div>
           </div>
 

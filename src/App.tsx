@@ -85,25 +85,7 @@ export default function App() {
 
         const initialJobId = jobsRes[0]?.id || 'job-swe-intern';
         setSelectedJobId(initialJobId);
-
-        if (samplesRes.length > 0) {
-          const initialSample = samplesRes[0];
-          setResumeText(initialSample.content);
-          setFileName(initialSample.name);
-          const targetJobId = initialSample.idealTargetJobId || initialJobId;
-          setSelectedJobId(targetJobId);
-
-          // Run initial analysis
-          const initialAnalysis = await analyzeResume(
-            initialSample.content,
-            targetJobId,
-            jobsRes,
-            skillsRes,
-            benchmarksRes,
-            initialSample.name
-          );
-          setAnalysis(initialAnalysis);
-        }
+        // Do not auto-analyze demo resume on startup — user chooses to upload or pick a sample profile
       } catch (err) {
         console.error('Failed to load initial data:', err);
       }
@@ -424,15 +406,59 @@ export default function App() {
 
           </div>
         ) : (
-          !isAnalyzing && (
-            <div className="bg-[#181d23]/80 rounded-2xl border border-[#252e37] p-12 text-center shadow-lg space-y-3">
-              <div className="w-12 h-12 rounded-2xl bg-[#2ef8a0]/10 border border-[#2ef8a0]/30 text-[#2ef8a0] flex items-center justify-center mx-auto">
-                <FileText className="w-6 h-6" />
+          !isAnalyzing ? (
+            <div className="bg-[#181d23]/80 rounded-2xl border border-[#252e37] p-8 sm:p-10 text-center shadow-lg space-y-6">
+              <div className="space-y-2">
+                <div className="w-12 h-12 rounded-2xl bg-[#2ef8a0]/10 border border-[#2ef8a0]/30 text-[#2ef8a0] flex items-center justify-center mx-auto shadow-[0_0_15px_rgba(46,248,160,0.15)]">
+                  <FileText className="w-6 h-6" />
+                </div>
+                <h3 className="text-lg font-bold text-white tracking-tight">
+                  Ready to Optimize Your Resume
+                </h3>
+                <p className="text-xs text-slate-400 max-w-lg mx-auto">
+                  Upload your own resume above or choose a sample benchmark profile below to test ATS scoring, keyword matching, and skill gap analytics.
+                </p>
               </div>
-              <h3 className="text-base font-bold text-white neo-gradient-text">Ready to Analyze</h3>
-              <p className="text-xs text-slate-400 max-w-md mx-auto">
-                Upload your resume file or choose one of the pre-loaded candidate benchmarks above to view real-time ATS match, skill gaps, and radar comparisons.
-              </p>
+
+              {sampleResumes.length > 0 && (
+                <div className="max-w-2xl mx-auto pt-2">
+                  <p className="text-xs font-semibold text-slate-300 mb-3 flex items-center justify-center gap-1.5">
+                    <Sparkles className="w-3.5 h-3.5 text-[#2ef8a0]" />
+                    <span>Or select a pre-configured demo candidate profile to test:</span>
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                    {sampleResumes.map(sample => (
+                      <button
+                        key={sample.id}
+                        onClick={() => handleSelectSample(sample)}
+                        className="p-3 rounded-xl border border-[#252e37] bg-[#12161a] hover:border-[#2ef8a0]/50 hover:bg-[#1a2129] transition-all text-left group flex items-center justify-between"
+                      >
+                        <div className="min-w-0 pr-2">
+                          <p className="text-xs font-semibold text-white group-hover:text-[#2ef8a0] transition-colors truncate">
+                            {sample.name}
+                          </p>
+                          <p className="text-[10px] text-slate-400 truncate mt-0.5">
+                            Target: {jobs.find(j => j.id === sample.idealTargetJobId)?.title || 'Software Engineering'}
+                          </p>
+                        </div>
+                        <span className="text-[10px] px-2 py-0.5 rounded-full bg-[#2ef8a0]/10 text-[#2ef8a0] border border-[#2ef8a0]/30 font-semibold shrink-0">
+                          {sample.tag}
+                        </span>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          ) : (
+            <div className="bg-[#181d23]/80 rounded-2xl border border-[#252e37] p-12 text-center shadow-lg space-y-4">
+              <Loader2 className="w-8 h-8 animate-spin text-[#2ef8a0] mx-auto" />
+              <div className="space-y-1">
+                <h3 className="text-base font-bold text-white">Analyzing Resume & Extracting Metrics...</h3>
+                <p className="text-xs text-slate-400">
+                  Running static NLP tokenizers, keyword frequency matchers, and ATS readiness audits.
+                </p>
+              </div>
             </div>
           )
         )}
